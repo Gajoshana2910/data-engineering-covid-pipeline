@@ -26,7 +26,7 @@ data-engineering-covid-pipeline/
 │── README.md                 # Project Documentation
 
 
-## 🛠️ Steps to Run the Project  
+🛠️ Steps to Run the Project
  
 🔽 1️⃣ Clone the Repository  
 
@@ -38,6 +38,7 @@ cd data-engineering-covid-pipeline
 pip install -r requirements.txt
 
 🐘 3️⃣ Set Up PostgreSQL
+
 (If using local PostgreSQL, create a database)
 
 CREATE DATABASE covid_db;
@@ -72,4 +73,6 @@ SELECT * FROM covid_stats LIMIT 10;
 📜 License
 This project is licensed under the MIT License - see the [**LICENSE**](https://github.com/Gajoshana2910/data-engineering-covid-pipeline/blob/main/license) file for details.
 
-👨‍💻 Developed by [**Gajalakshmi A K**](https://github.com/Gajoshana2910)
+## 👨‍💻 Developed by
+
+[**Gajalakshmi A K**](https://github.com/Gajoshana2910)
