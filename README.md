@@ -71,6 +71,6 @@ SELECT * FROM covid_stats LIMIT 10;
 - Store data in Snowflake instead of PostgreSQL
 
 📜 License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Gajoshana2910/data-engineering-covid-pipeline/blob/main/license) file for details.
+This project is licensed under the MIT License - see the [**LICENSE**](https://github.com/Gajoshana2910/data-engineering-covid-pipeline/blob/main/license) file for details.
 
-👨‍💻 Developed by [Gajalakshmi A K](https://github.com/Gajoshana2910/)
+👨‍💻 Developed by [**Gajalakshmi A K**](https://github.com/Gajoshana2910)
