@@ -30,7 +30,6 @@ data-engineering-covid-pipeline/
  
 🔽 1️⃣ Clone the Repository  
 
-```bash
 git clone https://github.com/your-username/data-engineering-covid-pipeline.git
 cd data-engineering-covid-pipeline
 
