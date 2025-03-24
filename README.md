@@ -29,7 +29,7 @@ data-engineering-covid-pipeline/
 ## 🛠️ Steps to Run the Project
 
 🔽 1️⃣ Clone the Repository  
-
+```bash
 git clone https://github.com/your-username/data-engineering-covid-pipeline.git
 cd data-engineering-covid-pipeline
 
@@ -73,8 +73,8 @@ SELECT * FROM covid_stats LIMIT 10;
 ## 📜 License
 
 This project is licensed under the **MIT License** - see the  
-👉 **[LICENSE](https://github.com/Gajoshana2910/data-engineering-covid-pipeline/blob/main/LICENSE)** file for details.  
+👉 [LICENSE](https://github.com/Gajoshana2910/data-engineering-covid-pipeline/blob/main/LICENSE) file for details.  
 
 ## 👨‍💻 Developed by
 
-👉 **[Gajalakshmi A K](https://github.com/Gajoshana2910)** 
+👉 [Gajalakshmi A K](https://github.com/Gajoshana2910)
