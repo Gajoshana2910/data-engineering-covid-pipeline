@@ -13,6 +13,7 @@ This project is an **end-to-end Data Engineering pipeline** that extracts COVID-
 
 ## 🏗️ Project Structure  
 
+```bash
 data-engineering-covid-pipeline/
 │── dags/                     # Airflow DAGs
 │   ├── covid_pipeline.py
@@ -29,6 +30,7 @@ data-engineering-covid-pipeline/
  
 🔽 1️⃣ Clone the Repository  
 
+```bash
 git clone https://github.com/your-username/data-engineering-covid-pipeline.git
 cd data-engineering-covid-pipeline
 
