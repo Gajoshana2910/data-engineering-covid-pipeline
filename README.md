@@ -66,13 +66,14 @@ SELECT * FROM covid_stats LIMIT 10;
 
 🚀 Future Enhancements
 
-- Add Power BI / Jupyter Notebook for data visualization
-- Deploy the pipeline on Azure Data Factory
-- Store data in Snowflake instead of PostgreSQL
+- ✅ Add Power BI / Jupyter Notebook for data visualization
+- ✅ Deploy the pipeline on Azure Data Factory
+- ✅ Store data in Snowflake instead of PostgreSQL
 
-📜 License  
+📜 License
+
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Gajoshana2910/data-engineering-covid-pipeline/blob/main/license) file for details.  
 
 👨‍💻 Developed by  
 
-[**Gajalakshmi A K**](https://github.com/Gajoshana2910)
+[Gajalakshmi A K](https://github.com/Gajoshana2910)
