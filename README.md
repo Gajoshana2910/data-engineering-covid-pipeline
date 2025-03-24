@@ -27,7 +27,8 @@ data-engineering-covid-pipeline/
 
 
 ## 🛠️ Steps to Run the Project
- 
+
+```bash
 🔽 1️⃣ Clone the Repository  
 
 git clone https://github.com/your-username/data-engineering-covid-pipeline.git
