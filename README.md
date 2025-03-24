@@ -24,6 +24,7 @@ data-engineering-covid-pipeline/
 │── docker-compose.yml        # Docker setup
 │── requirements.txt          # Python dependencies
 │── README.md                 # Project Documentation
+```bash
 
 
 ## 🛠️ Steps to Run the Project
