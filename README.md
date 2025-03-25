@@ -76,7 +76,7 @@ SELECT * FROM covid_stats LIMIT 10;
 📜 License
 
 This project is licensed under the MIT License - see the  
-👉 [LICENSE](https://github.com/Gajoshana2910/data-engineering-covid-pipeline/blob/main/license) file for details.  
+👉 [LICENSE](https://github.com/Gajoshana2910/data-engineering-covid-pipeline/blob/main/LICENSE) file for details.  
 
 👨‍💻 Developed by
 
