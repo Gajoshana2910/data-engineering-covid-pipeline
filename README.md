@@ -4,12 +4,12 @@
 This project is an **end-to-end Data Engineering pipeline** that extracts COVID-19 data from an API, cleans and transforms it, and loads it into a **PostgreSQL database**. The pipeline is **automated using Apache Airflow** and can be deployed using **Docker**.  
 
 ## 📌 Tech Stack  
-- **Python** → For scripting the ETL process  
-- **Pandas** → Data transformation & cleaning  
-- **Requests** → API calls for data extraction  
-- **PostgreSQL** → Data storage  
-- **Apache Airflow** → Workflow orchestration  
-- **Docker** → Containerization for easy deployment  
+🐍 Python → For scripting the ETL process
+📝 Pandas → Data transformation & cleaning
+🌐 Requests → API calls for data extraction
+🗄️ PostgreSQL → Data storage
+🔄 Apache Airflow → Workflow orchestration
+🐳 Docker → Containerization for easy deployment
 
 ## 🏗️ Project Structure  
 
@@ -32,29 +32,26 @@ This project is an **end-to-end Data Engineering pipeline** that extracts COVID-
 ```bash
 git clone https://github.com/your-username/data-engineering-covid-pipeline.git
 cd data-engineering-covid-pipeline
-```bash
 
 
 📦 2️⃣ Install Dependencies
-
+```sql
 pip install -r requirements.txt
 
 🐘 3️⃣ Set Up PostgreSQL
 
 (If using local PostgreSQL, create a database)
-
+```sql
 CREATE DATABASE covid_db;
 
 🐳 4️⃣ Run Docker (If Using Airflow & PostgreSQL)
-
+```sql
 docker-compose up -d
 
 🔄 5️⃣ Run ETL Scripts Manually
-
+```bash
 python scripts/extract.py   # Extract data from API
-
 python scripts/transform.py # Transform & clean data
-
 python scripts/load.py      # Load into PostgreSQL
 
 ⚡ 6️⃣ Schedule Pipeline with Apache Airflow
@@ -66,6 +63,7 @@ python scripts/load.py      # Load into PostgreSQL
 
 📊 7️⃣ Verify Data in PostgreSQL
 
+```sql
 SELECT * FROM covid_stats LIMIT 10;
 
 🚀 Future Enhancements
