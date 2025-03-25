@@ -13,7 +13,7 @@ This project is an **end-to-end Data Engineering pipeline** that extracts COVID-
 
 ## 🏗️ Project Structure  
 
-
+```bash
 data-engineering-covid-pipeline/
 │── dags/                     # Airflow DAGs
 │   ├── covid_pipeline.py
@@ -49,6 +49,7 @@ docker-compose up -d
 
 🔄 5️⃣ Run ETL Scripts Manually
 
+```md
 python scripts/extract.py   # Extract data from API
 python scripts/transform.py # Transform & clean data
 python scripts/load.py      # Load into PostgreSQL
