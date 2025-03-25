@@ -51,7 +51,9 @@ docker-compose up -d
 🔄 5️⃣ Run ETL Scripts Manually
 
 python scripts/extract.py   # Extract data from API
+
 python scripts/transform.py # Transform & clean data
+
 python scripts/load.py      # Load into PostgreSQL
 
 ⚡ 6️⃣ Schedule Pipeline with Apache Airflow
