@@ -11,20 +11,20 @@ This project is an **end-to-end Data Engineering pipeline** that extracts COVID-
 - **Apache Airflow** → Workflow orchestration  
 - **Docker** → Containerization for easy deployment  
 
-```md
 ## 🏗️ Project Structure  
 
-data-engineering-covid-pipeline/
-│── dags/                     # Airflow DAGs
-│   ├── covid_pipeline.py
-│── scripts/                  # ETL Scripts
-│   ├── extract.py
-│   ├── transform.py
-│   ├── load.py
-│── docker-compose.yml        # Docker setup
-│── requirements.txt          # Python dependencies
-│── README.md                 # Project Documentation
+**Folder Structure:**
+- `dags/` → Contains Apache Airflow DAGs  
+  - `covid_pipeline.py`  
+- `scripts/` → Contains ETL scripts  
+  - `extract.py`  
+  - `transform.py`  
+  - `load.py`  
+- `docker-compose.yml` → Docker setup  
+- `requirements.txt` → Python dependencies  
+- `README.md` → Project Documentation  
 
+---
 
 ## 🛠️ Steps to Run the Project
 
