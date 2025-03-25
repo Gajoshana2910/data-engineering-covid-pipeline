@@ -42,37 +42,37 @@ pip install -r requirements.txt
 🐘 3️⃣ Set Up PostgreSQL
 
 (If using local PostgreSQL, create a database)
-```sql
+```
 CREATE DATABASE covid_db;
-
+```
 🐳 4️⃣ Run Docker (If Using Airflow & PostgreSQL)
-```sql
+```
 docker-compose up -d
-
+```
 🔄 5️⃣ Run ETL Scripts Manually
-```bash
+```
 python scripts/extract.py   # Extract data from API
 python scripts/transform.py # Transform & clean data
 python scripts/load.py      # Load into PostgreSQL
-
+```
 ⚡ 6️⃣ Schedule Pipeline with Apache Airflow
-
+```
 1. Open http://localhost:8080/
 2. Log in (Username: airflow, Password: airflow)
 3. Enable the covid_pipeline DAG
 4. Click "Trigger DAG" to run the pipeline
-
+```
 📊 7️⃣ Verify Data in PostgreSQL
 
-```sql
+```
 SELECT * FROM covid_stats LIMIT 10;
-
+```
 🚀 Future Enhancements
-
+```
 - ✅ Add Power BI / Jupyter Notebook for data visualization
 - ✅ Deploy the pipeline on Azure Data Factory
 - ✅ Store data in Snowflake instead of PostgreSQL
-
+```
 📜 License
 
 This project is licensed under the MIT License - see the  
