@@ -13,7 +13,7 @@ This project is an **end-to-end Data Engineering pipeline** that extracts COVID-
 
 ## 🏗️ Project Structure  
 
-```bash
+
 data-engineering-covid-pipeline/
 │── dags/                     # Airflow DAGs
 │   ├── covid_pipeline.py
@@ -24,7 +24,6 @@ data-engineering-covid-pipeline/
 │── docker-compose.yml        # Docker setup
 │── requirements.txt          # Python dependencies
 │── README.md                 # Project Documentation
-```bash
 
 
 ## 🛠️ Steps to Run the Project
