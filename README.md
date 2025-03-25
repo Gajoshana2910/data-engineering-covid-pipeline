@@ -29,8 +29,9 @@ This project is an **end-to-end Data Engineering pipeline** that extracts COVID-
 ## 🛠️ Steps to Run the Project
 
 🔽 1️⃣ Clone the Repository  
-```bash
+
 git clone https://github.com/your-username/data-engineering-covid-pipeline.git
+
 cd data-engineering-covid-pipeline
 
 📦 2️⃣ Install Dependencies
