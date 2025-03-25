@@ -2,7 +2,7 @@
 
 ## 📖 Project Overview  
 This project is an **end-to-end Data Engineering pipeline** that extracts COVID-19 data from an API, cleans and transforms it, and loads it into a **PostgreSQL database**. The pipeline is **automated using Apache Airflow** and can be deployed using **Docker**.  
-
+```
 ## 📌 Tech Stack  
 🐍 Python → For scripting the ETL process
 📝 Pandas → Data transformation & cleaning
@@ -10,7 +10,7 @@ This project is an **end-to-end Data Engineering pipeline** that extracts COVID-
 🗄️ PostgreSQL → Data storage
 🔄 Apache Airflow → Workflow orchestration
 🐳 Docker → Containerization for easy deployment
-
+```
 ## 🏗️ Project Structure  
 
 **Folder Structure:**
