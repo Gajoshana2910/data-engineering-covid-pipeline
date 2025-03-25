@@ -11,9 +11,9 @@ This project is an **end-to-end Data Engineering pipeline** that extracts COVID-
 - **Apache Airflow** → Workflow orchestration  
 - **Docker** → Containerization for easy deployment  
 
+```md
 ## 🏗️ Project Structure  
 
-```bash
 data-engineering-covid-pipeline/
 │── dags/                     # Airflow DAGs
 │   ├── covid_pipeline.py
